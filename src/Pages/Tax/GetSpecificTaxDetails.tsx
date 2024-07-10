@@ -1,7 +1,7 @@
-const GetSpecificTaxDetails = () => {
-  return (
-    <div>GetSpecificTaxDetails</div>
-  )
-}
+import React from "react";
 
-export default GetSpecificTaxDetails
+const GetSpecificTaxDetails = () => {
+  return <div>GetSpecificTaxDetails</div>;
+};
+
+export default GetSpecificTaxDetails;

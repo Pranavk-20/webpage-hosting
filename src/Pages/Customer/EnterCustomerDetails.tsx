@@ -1,3 +1,5 @@
+import React from 'react';
+
 const EnterCustomerDetails = () => {
   return (
     <div>EnterCustomerDetails</div>

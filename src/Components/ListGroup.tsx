@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import React from 'react';
 
 interface Props {
   item: string[];
@@ -12,7 +13,7 @@ function ListGroup({ item, heading, onSelectItem }: Props) {
   const navigate = useNavigate();
 
   const handleButtonClick = (item: string, index: number) => {
-    switch(index) {
+    switch (index) {
       case 0:
         navigate("/get-all-customer-details");
         break;
@@ -22,7 +23,7 @@ function ListGroup({ item, heading, onSelectItem }: Props) {
       case 2:
         navigate("/enter-customer-details");
         break;
-      case 3: 
+      case 3:
         navigate("/get-all-category-details");
         break;
       case 4:
@@ -73,7 +74,7 @@ function ListGroup({ item, heading, onSelectItem }: Props) {
       case 19:
         navigate("/enter-tax-details");
         break;
-  
+
       default:
         break;
     }
